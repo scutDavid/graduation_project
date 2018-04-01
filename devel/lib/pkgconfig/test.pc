@@ -1,0 +1,8 @@
+prefix=/home/wwh/kdev_ros/devel
+
+Name: test
+Description: Description of test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wwh/kdev_ros/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/wwh/kdev_ros/install
+
+Name: sec
+Description: Description of sec
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wwh/kdev_ros/install/lib 
+Requires: roscpp rospy std_msgs message_runtime
