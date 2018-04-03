@@ -257,6 +257,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named SVM_test
+
+# Build rule for target.
+SVM_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SVM_test
+.PHONY : SVM_test
+
+# fast build rule for target.
+SVM_test/fast:
+	$(MAKE) -f sec/CMakeFiles/SVM_test.dir/build.make sec/CMakeFiles/SVM_test.dir/build
+.PHONY : SVM_test/fast
+
+#=============================================================================
 # Target rules for targets named open_video
 
 # Build rule for target.
@@ -640,6 +653,7 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... SVM_test"
 	@echo "... open_video"
 	@echo "... sec"
 	@echo "... geometry_msgs_generate_messages_py"

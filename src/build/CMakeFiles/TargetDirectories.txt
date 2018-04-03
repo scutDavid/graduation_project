@@ -25,6 +25,7 @@
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/test.dir
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/install/local.dir
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/install/strip.dir
+/home/wwh/kdev_ros/src/build/sec/CMakeFiles/SVM_test.dir
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/open_video.dir
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/sec.dir
 /home/wwh/kdev_ros/src/build/sec/CMakeFiles/geometry_msgs_generate_messages_py.dir

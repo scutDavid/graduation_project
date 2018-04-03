@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+sec/CMakeFiles/SVM_test.dir/rule:
+	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f CMakeFiles/Makefile2 sec/CMakeFiles/SVM_test.dir/rule
+.PHONY : sec/CMakeFiles/SVM_test.dir/rule
+
+# Convenience name for target.
+SVM_test: sec/CMakeFiles/SVM_test.dir/rule
+
+.PHONY : SVM_test
+
+# fast build rule for target.
+SVM_test/fast:
+	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f sec/CMakeFiles/SVM_test.dir/build.make sec/CMakeFiles/SVM_test.dir/build
+.PHONY : SVM_test/fast
+
+# Convenience name for target.
 sec/CMakeFiles/open_video.dir/rule:
 	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f CMakeFiles/Makefile2 sec/CMakeFiles/open_video.dir/rule
 .PHONY : sec/CMakeFiles/open_video.dir/rule
@@ -570,6 +585,33 @@ sensor_msgs_generate_messages_lisp/fast:
 	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f sec/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make sec/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
+src/SVM_test.o: src/SVM_test.cpp.o
+
+.PHONY : src/SVM_test.o
+
+# target to build an object file
+src/SVM_test.cpp.o:
+	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f sec/CMakeFiles/SVM_test.dir/build.make sec/CMakeFiles/SVM_test.dir/src/SVM_test.cpp.o
+.PHONY : src/SVM_test.cpp.o
+
+src/SVM_test.i: src/SVM_test.cpp.i
+
+.PHONY : src/SVM_test.i
+
+# target to preprocess a source file
+src/SVM_test.cpp.i:
+	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f sec/CMakeFiles/SVM_test.dir/build.make sec/CMakeFiles/SVM_test.dir/src/SVM_test.cpp.i
+.PHONY : src/SVM_test.cpp.i
+
+src/SVM_test.s: src/SVM_test.cpp.s
+
+.PHONY : src/SVM_test.s
+
+# target to generate assembly for a file
+src/SVM_test.cpp.s:
+	cd /home/wwh/kdev_ros/src/build && $(MAKE) -f sec/CMakeFiles/SVM_test.dir/build.make sec/CMakeFiles/SVM_test.dir/src/SVM_test.cpp.s
+.PHONY : src/SVM_test.cpp.s
+
 src/open_video.o: src/open_video.cpp.o
 
 .PHONY : src/open_video.o
@@ -636,6 +678,7 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... SVM_test"
 	@echo "... open_video"
 	@echo "... sec"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -664,6 +707,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... src/SVM_test.o"
+	@echo "... src/SVM_test.i"
+	@echo "... src/SVM_test.s"
 	@echo "... src/open_video.o"
 	@echo "... src/open_video.i"
 	@echo "... src/open_video.s"
